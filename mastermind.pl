@@ -226,7 +226,7 @@ colourname(5, '(w)hite').
 colourname(6, '(e)bony').
 
 % Start game loop for guessing code
-gameloop :- getgamesize(C, P), gencode(C, P, Answer), printcolouroptions(C), getguess(Answer, P, C, 1).
+gameloop :- getgamesize(C, P), gencode(P, C, Answer), printcolouroptions(C), getguess(Answer, P, C, 1).
 
 % Point of entry for game
 intro :- write('Welcome to Mastermind'), nl, gameloop, halt.
