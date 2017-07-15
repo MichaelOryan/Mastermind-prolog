@@ -1,4 +1,4 @@
-<h1>Mastermind in Fortran</h1>
+<h1>Mastermind in Prolog</h1>
 
 https://en.wikipedia.org/wiki/Mastermind_(board_game)
 
